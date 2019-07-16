@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, Content } from "native-base";
+import { View } from "react-native";
+import { Container, Content, Text } from "native-base";
 import CodeInput from "react-native-confirmation-code-input";
 import styles from "../styles/otp";
+import layout from "../styles/layout";
 
 export default class OTP extends React.Component {
     constructor(props) {
@@ -22,14 +24,18 @@ export default class OTP extends React.Component {
         return (
             <Container>
                 <Content contentContainerStyle={styles.container}>
-                    <CodeInput
-                        onFulfill={this.set}
-                        activeColor="#1C75BC"
-                        inactiveColor="#eaeaea"
-                        containerStyle={{ alignItems: "center" }}
-                        autoFocus={true}
-                        keyboardType="numeric"
-                    />
+                    <View style={layout.fill} />
+                    <View style={{ flex: 1, alignItems: "center" }}>
+                        <Text>Masukkan kode OTP</Text>
+                        <CodeInput
+                            onFulfill={this.set}
+                            activeColor="#1C75BC"
+                            inactiveColor="#eaeaea"
+                            autoFocus={true}
+                            keyboardType="numeric"
+                        />
+                    </View>
+                    <View style={layout.fill} />
                 </Content>
             </Container>
         );
