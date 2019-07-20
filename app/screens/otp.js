@@ -1,6 +1,7 @@
 import React from "react";
 import { View } from "react-native";
 import { Container, Content, Text } from "native-base";
+import firebase from "react-native-firebase";
 import CodeInput from "react-native-confirmation-code-input";
 import styles from "../styles/otp";
 import layout from "../styles/layout";
@@ -15,6 +16,8 @@ export default class OTP extends React.Component {
 
         this.set = this.set.bind(this);
     }
+
+    componentDidMount() {}
 
     set(value) {
         this.setState({ otp: value });

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583543639404",
+    "firebase_url": "https://mandiri-wth.firebaseio.com",
+    "project_id": "mandiri-wth",
+    "storage_bucket": "mandiri-wth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583543639404:android:f2970ea56bf31141",
+        "android_client_info": {
+          "package_name": "com.whatthehack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583543639404-l39l5dh5aae4ielek8c46vrsbvcgg340.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKo9Ex-iuKzQyFKRhE1M8gTFoz9rT1lLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583543639404-l39l5dh5aae4ielek8c46vrsbvcgg340.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
