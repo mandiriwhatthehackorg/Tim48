@@ -1,70 +1,72 @@
 import React from "react";
-import {
-    Container,
-    Content,
-    Form,
-    Item,
-    Label,
-    Input,
-    Button,
-    Text
-} from "native-base";
+import { View, Image, TouchableOpacity, Text, TextInput } from "react-native";
+import { Container, Content } from "native-base";
 import styles from "../styles/login";
 
 export default class Login extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            username: "",
-            password: "",
+            phone: "",
             loading: false,
             error: false
         };
 
         this.login = this.login.bind(this);
-        this.username = this.username.bind(this);
-        this.password = this.password.bind(this);
+        this.set = this.set.bind(this);
     }
 
-    login() {}
-
-    username(value) {
-        this.setState({ username: value });
+    login() {
+        this.props.navigation.navigate("main");
     }
 
-    password(value) {
-        this.setState({ password: value });
+    set(value) {
+        this.setState({ phone: value });
     }
 
     render() {
         return (
             <Container>
-                <Content>
-                    <Form style={styles.form}>
-                        <Item floatingLabel>
-                            <Label>Username</Label>
-                            <Input
-                                value={this.state.username}
-                                onChangeText={this.username}
+                <Content contentContainerStyle={styles.container}>
+                    <View style={styles.ribbon.view}>
+                        <Image
+                            source={require("../../assets/images/ribbon.png")}
+                            style={styles.ribbon.image}
+                        />
+                    </View>
+                    <View style={styles.form}>
+                        <View style={styles.center}>
+                            <Image
+                                source={require("../../assets/images/logo.png")}
+                                style={styles.logo}
                             />
-                        </Item>
-                        <Item floatingLabel>
-                            <Label>Password</Label>
-                            <Input
-                                value={this.state.password}
-                                secureTextEntry={true}
-                                onChangeText={this.password}
-                            />
-                        </Item>
-                    </Form>
-                    <Button
-                        block
-                        primary
-                        style={styles.button}
-                        onPress={this.login}
-                    >
-                        <Text>Sign In</Text>
-                    </Button>
+                            <View style={{ marginTop: 16 }}>
+                                <View style={styles.field}>
+                                    <TextInput
+                                        value={this.state.phone}
+                                        style={styles.input}
+                                        onChangeText={this.set}
+                                        underlineColorAndroid="transparent"
+                                    />
+                                </View>
+                                <View style={styles.label.view}>
+                                    <Text style={styles.label.text}>
+                                        Nomor telepon
+                                    </Text>
+                                </View>
+                            </View>
+                            <View style={{ marginTop: 16 }}>
+                                <TouchableOpacity
+                                    onPress={this.login}
+                                    style={styles.button.view}
+                                >
+                                    <Text style={styles.button.text}>
+                                        Masuk
+                                    </Text>
+                                </TouchableOpacity>
+                            </View>
+                        </View>
+                    </View>
                 </Content>
             </Container>
         );

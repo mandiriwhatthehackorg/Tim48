@@ -55,6 +55,16 @@
 		3214C57CED7D460B98BB93F9 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D4396866A8C483C95613F83 /* rubicon-icon-font.ttf */; };
 		56BDEC4425C74577BB8C5B8F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2F94B07BDB4AE5A07E9D81 /* SimpleLineIcons.ttf */; };
 		7F66FBFDC0714B17AD4429D0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2953432438074BF5BA8A832A /* Zocial.ttf */; };
+		3D4C4B028B424352A3277896 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F1D26BC70442CBADFC6F6 /* libRNImagePicker.a */; };
+		9FF4E501B6674CF7A6FB8C27 /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B760E3C98814708B0CD034E /* libRNFirebase.a */; };
+		ADDDF22C83BC4290A3B609A6 /* MyriadPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 534111D316F14217BB5C2A67 /* MyriadPro-Bold.otf */; };
+		76B2FA6B2C454F539ACF13CC /* MyriadPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D97E9A0CBE5043D8BA887329 /* MyriadPro-BoldIt.otf */; };
+		449FDB25C0994D7B978A4E77 /* MyriadPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = D34F9EC1E64743A7B68FE7DB /* MyriadPro-It.otf */; };
+		1093C75FB4B24487AB1EFED8 /* MyriadPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A117F990E01C44108E863D65 /* MyriadPro-Light.otf */; };
+		3523FE482EFD4AF8A3C5E164 /* MyriadPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3071C24D75E4118B1EF3F11 /* MyriadPro-LightIt.otf */; };
+		5616D197878E4D77919D8FCF /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6CD26BFCB6DA48C99832A5D4 /* MyriadPro-Regular.otf */; };
+		AB74BB9DA07341AC88F1EB4C /* MyriadPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60D9E30732274F95B7C6F871 /* MyriadPro-Semibold.otf */; };
+		27BCEFB03FBC4004858B3868 /* MyriadPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0C341308D634000B2E35A22 /* MyriadPro-SemiboldIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -378,6 +388,18 @@
 		7D4396866A8C483C95613F83 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		5B2F94B07BDB4AE5A07E9D81 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2953432438074BF5BA8A832A /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D98B764F7E6443F8ECFA697 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; name = "RNImagePicker.xcodeproj"; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		320F1D26BC70442CBADFC6F6 /* libRNImagePicker.a */ = {isa = PBXFileReference; name = "libRNImagePicker.a"; path = "libRNImagePicker.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		139FBD3FA4C3464CB454C03D /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; name = "RNFirebase.xcodeproj"; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		4B760E3C98814708B0CD034E /* libRNFirebase.a */ = {isa = PBXFileReference; name = "libRNFirebase.a"; path = "libRNFirebase.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		534111D316F14217BB5C2A67 /* MyriadPro-Bold.otf */ = {isa = PBXFileReference; name = "MyriadPro-Bold.otf"; path = "../assets/fonts/MyriadPro-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D97E9A0CBE5043D8BA887329 /* MyriadPro-BoldIt.otf */ = {isa = PBXFileReference; name = "MyriadPro-BoldIt.otf"; path = "../assets/fonts/MyriadPro-BoldIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D34F9EC1E64743A7B68FE7DB /* MyriadPro-It.otf */ = {isa = PBXFileReference; name = "MyriadPro-It.otf"; path = "../assets/fonts/MyriadPro-It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A117F990E01C44108E863D65 /* MyriadPro-Light.otf */ = {isa = PBXFileReference; name = "MyriadPro-Light.otf"; path = "../assets/fonts/MyriadPro-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3071C24D75E4118B1EF3F11 /* MyriadPro-LightIt.otf */ = {isa = PBXFileReference; name = "MyriadPro-LightIt.otf"; path = "../assets/fonts/MyriadPro-LightIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6CD26BFCB6DA48C99832A5D4 /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; name = "MyriadPro-Regular.otf"; path = "../assets/fonts/MyriadPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60D9E30732274F95B7C6F871 /* MyriadPro-Semibold.otf */ = {isa = PBXFileReference; name = "MyriadPro-Semibold.otf"; path = "../assets/fonts/MyriadPro-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0C341308D634000B2E35A22 /* MyriadPro-SemiboldIt.otf */ = {isa = PBXFileReference; name = "MyriadPro-SemiboldIt.otf"; path = "../assets/fonts/MyriadPro-SemiboldIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -406,6 +428,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				3D4C4B028B424352A3277896 /* libRNImagePicker.a in Frameworks */,
+				9FF4E501B6674CF7A6FB8C27 /* libRNFirebase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +616,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				6D98B764F7E6443F8ECFA697 /* RNImagePicker.xcodeproj */,
+				139FBD3FA4C3464CB454C03D /* RNFirebase.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -661,6 +687,14 @@
 				7D4396866A8C483C95613F83 /* rubicon-icon-font.ttf */,
 				5B2F94B07BDB4AE5A07E9D81 /* SimpleLineIcons.ttf */,
 				2953432438074BF5BA8A832A /* Zocial.ttf */,
+				534111D316F14217BB5C2A67 /* MyriadPro-Bold.otf */,
+				D97E9A0CBE5043D8BA887329 /* MyriadPro-BoldIt.otf */,
+				D34F9EC1E64743A7B68FE7DB /* MyriadPro-It.otf */,
+				A117F990E01C44108E863D65 /* MyriadPro-Light.otf */,
+				A3071C24D75E4118B1EF3F11 /* MyriadPro-LightIt.otf */,
+				6CD26BFCB6DA48C99832A5D4 /* MyriadPro-Regular.otf */,
+				60D9E30732274F95B7C6F871 /* MyriadPro-Semibold.otf */,
+				D0C341308D634000B2E35A22 /* MyriadPro-SemiboldIt.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1130,6 +1164,14 @@
 				3214C57CED7D460B98BB93F9 /* rubicon-icon-font.ttf in Resources */,
 				56BDEC4425C74577BB8C5B8F /* SimpleLineIcons.ttf in Resources */,
 				7F66FBFDC0714B17AD4429D0 /* Zocial.ttf in Resources */,
+				ADDDF22C83BC4290A3B609A6 /* MyriadPro-Bold.otf in Resources */,
+				76B2FA6B2C454F539ACF13CC /* MyriadPro-BoldIt.otf in Resources */,
+				449FDB25C0994D7B978A4E77 /* MyriadPro-It.otf in Resources */,
+				1093C75FB4B24487AB1EFED8 /* MyriadPro-Light.otf in Resources */,
+				3523FE482EFD4AF8A3C5E164 /* MyriadPro-LightIt.otf in Resources */,
+				5616D197878E4D77919D8FCF /* MyriadPro-Regular.otf in Resources */,
+				AB74BB9DA07341AC88F1EB4C /* MyriadPro-Semibold.otf in Resources */,
+				27BCEFB03FBC4004858B3868 /* MyriadPro-SemiboldIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1261,6 +1303,16 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTheHack.app/WhatTheHack";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1278,6 +1330,16 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTheHack.app/WhatTheHack";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Release;
 		};
@@ -1296,6 +1358,11 @@
 				);
 				PRODUCT_NAME = WhatTheHack;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1313,6 +1380,11 @@
 				);
 				PRODUCT_NAME = WhatTheHack;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Release;
 		};
@@ -1339,6 +1411,16 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1365,6 +1447,16 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Release;
 		};
@@ -1390,6 +1482,16 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTheHack-tvOS.app/WhatTheHack-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1415,6 +1517,16 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTheHack-tvOS.app/WhatTheHack-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+				);
 			};
 			name = Release;
 		};

@@ -71,6 +71,14 @@
 		<string>rubicon-icon-font.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>MyriadPro-Bold.otf</string>
+		<string>MyriadPro-BoldIt.otf</string>
+		<string>MyriadPro-It.otf</string>
+		<string>MyriadPro-Light.otf</string>
+		<string>MyriadPro-LightIt.otf</string>
+		<string>MyriadPro-Regular.otf</string>
+		<string>MyriadPro-Semibold.otf</string>
+		<string>MyriadPro-SemiboldIt.otf</string>
 	</array>
 </dict>
 </plist>

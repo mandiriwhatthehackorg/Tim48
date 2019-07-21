@@ -5,6 +5,7 @@ export default {
     email: "dtaufani@gmail.com",
 
     api: {
-        base: ""
+        auth: "https://oob.mandiriwhatthehack.com",
+        base: "https://apigateway.mandiriwhatthehack.com/"
     }
 };
