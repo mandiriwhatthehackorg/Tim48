@@ -54,32 +54,5 @@ export default {
             fontFamily: "MyriadPro-Regular",
             fontSize: 16
         }
-    },
-    field: {
-        borderColor: "#003D79",
-        borderWidth: 2,
-        borderRadius: 4,
-        width: 256,
-        height: 42
-    },
-    input: {
-        color: "#003A70",
-        fontFamily: "MyriadPro-Light",
-        fontSize: 14,
-        paddingHorizontal: 8
-    },
-    label: {
-        view: {
-            backgroundColor: "#fff",
-            paddingHorizontal: 4,
-            position: "absolute",
-            top: -8,
-            left: 8
-        },
-        text: {
-            color: "#003A70",
-            fontFamily: "MyriadPro-Regular",
-            fontSize: 9
-        }
     }
 };

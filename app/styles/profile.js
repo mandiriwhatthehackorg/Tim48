@@ -27,18 +27,59 @@ export default {
     },
     form: {
         position: "absolute",
-        top: 104,
+        top: 0,
         bottom: 0,
         right: 0,
-        left: 0,
+        left: 0
+    },
+    header: {
+        paddingHorizontal: 16,
+        paddingBottom: 16,
+        flexDirection: "row",
         alignItems: "center"
     },
-    center: {
+    name: {
+        color: "#000",
+        fontFamily: "MyriadPro-Bold",
+        fontSize: 30
+    },
+    account: {
+        color: "#000",
+        fontFamily: "MyriadPro-Light",
+        fontSize: 20
+    },
+    caption: {
+        color: "#000",
+        fontFamily: "MyriadPro-Bold",
+        fontSize: 20
+    },
+    col: {
+        flexDirection: "row",
         alignItems: "center"
     },
-    logo: {
-        width: 195,
-        height: 101
+    profile: {
+        button: {
+            width: 32,
+            height: 32,
+            borderColor: "#707070",
+            borderWidth: 1,
+            borderRadius: 16,
+            justifyContent: "center",
+            alignItems: "center",
+            marginLeft: 8
+        },
+        icon: {
+            width: 17,
+            height: 18
+        }
+    },
+    message: {
+        width: 29,
+        height: 23
+    },
+    footer: {
+        padding: 16,
+        alignItems: "center"
     },
     button: {
         view: {
@@ -53,33 +94,6 @@ export default {
             color: "#fff",
             fontFamily: "MyriadPro-Regular",
             fontSize: 16
-        }
-    },
-    field: {
-        borderColor: "#003D79",
-        borderWidth: 2,
-        borderRadius: 4,
-        width: 256,
-        height: 42
-    },
-    input: {
-        color: "#003A70",
-        fontFamily: "MyriadPro-Light",
-        fontSize: 14,
-        paddingHorizontal: 8
-    },
-    label: {
-        view: {
-            backgroundColor: "#fff",
-            paddingHorizontal: 4,
-            position: "absolute",
-            top: -8,
-            left: 8
-        },
-        text: {
-            color: "#003A70",
-            fontFamily: "MyriadPro-Regular",
-            fontSize: 9
         }
     }
 };
